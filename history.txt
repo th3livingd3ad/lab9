@@ -1,0 +1,417 @@
+    1  git branch
+    2  git add wordA.sh
+    3  gh issues
+    4  gh issues list
+    5  gh issue list
+    6  git commit -m "Fixes #9 : wordA should echo ALPHA"
+    7  git push origin main
+    8  git push origin bug-alpha
+    9  git branch main
+   10  git switch main
+   11  git merge bug-alpha
+   12  git push origin main
+   13  git branch
+   14  git push 
+   15  gh issue list
+   16  git checkout
+   17  git checkout -b bug-10-wordB
+   18  git checkout -b bug-11-wordD
+   19  git checkout -b bug-12-wordE
+   20  git checkout bug-10-wordB
+   22  nano wordB.sh
+   23  git commit -m "wordB now echos BRAVO"
+   24  git add wordB.sh
+   25  git status
+   26  git commit -m "wordB now echos BRAVO"
+   27  git push origin bug-10-wordB
+   28  git branch
+   29  git main
+   30  git branch main
+   31  git switch main
+   33  mkdir c1
+   35  git clone https://github.com/th3livingd3ad/phonetic.git
+   36  git log
+   37  git log --oneline
+   39  git log
+   40  git log --oneline
+   41  git log --oneline --graph --all
+   43  mkdir scripts
+   45  gh list
+   46  gh repo 
+   47  gh auth
+   48  gh auth login
+   49  git auth status
+   50  gh auth status
+   52  gh repo 
+   53  gh repo list
+   54  gh repo creae
+   55  gh repo create
+   56  gh repo create ghtest --private --clone
+   58  gh issue list
+   62  gh issue list
+   65  gh issue list
+   66  gh issue view
+   67  gh issue view #12
+   68  gh issue view12
+   69  gh issue view 12
+   70  gh pr list
+   71  gh pr view
+   72  gh pr view 15
+   73  gh pr merge 15 --rebase
+   74  gh issue
+   75  gh auth login 
+   83  gh pr
+   84  gh merge
+   86  gh pr
+   87  gh pr merge
+   88  gh pr merge 12
+   89  gh auth status
+   90  gh repo view th3livingd3ad
+   91  gh repo view th3livingd3ad/phonetic
+   94  gh api                 user/repository_invitations --jq '.[].id'
+   95  gh api --method PATH user/repository_invitation/341017624
+   96  gh api --method PATCH user/repository_invitation/341017624
+   97  gh api --method PATCH user/repository_invitations/341017624
+   99  gh auth refresh -h github.com -s admin:public_key
+  100  gh ssh-key add ~/.ssh/id_ed25519.pub --title "cloudshell"
+  102  gh ssh-key list
+  103  gh auth refresh -h github.com -s admin:public_key
+  105  gh ssh-key add ~/.ssh/id_ed25519.pub --title "cloudshell"
+  108  mkdir catest
+  110  git clone git@github.com:njanbolu/xC20390071.git
+  113  nano hello.txt
+  115  nano hello.txt
+  118  chmod +x hello.txt
+  120  nano hello.txt
+  122  git init
+  123  git status
+  124  git add hello.txt
+  125  git commit -m "pushing hello from account"
+  126  git push -u origin main 
+  130  mkdir week1
+  132  nano greet.sh
+  133  chmod +x greet.sh
+  135  nano greet.sh
+  136  chmod +x greet.sh
+  138  git status
+  139  git init
+  140  git init 
+  141  git status
+  142  git add greet.sh
+  143  git commit -m "greetings" 
+  144  git remote set-url origin git@github.com:th3livingd3ad/caRepo.git
+  145  git remote -v
+  146  git remote add origin git@github.com:th3livingd3ad/caRepo.git
+  147  git push -u origin main
+  149  nano greet.sh
+  150  git diff
+  151  git diff greet.sh
+  152  git init 
+  153  git add greet.sh
+  154  git commit -am "changed to caps"
+  155  git push
+  158  mkdir week2
+  160  git pull
+  161  git fretch
+  162  git fetch
+  163  git remote -v
+  164  git clone git@github.com:th3livingd3ad/caRepo.git
+  167  nano greet.sh
+  168  git tag
+  169  git tags
+  170  git add greet.sh
+  171  git commit -m "version 3"
+  172  git push
+  173  git tag
+  174  git tag --show
+  175  git tag --list
+  176  git tag -v --list
+  177  git log --oneline
+  178  git tag r1 cc36fdc
+  179  git tag r2 310c3ce
+  180  git tag -a r3 -m "this is the third tag" d7a3d7b
+  181  git tags
+  182  git tag
+  183  git show r3
+  184  git show r2
+  185  git push origin r1 r2 r3
+  186  git ls-remote --tags origin
+  189  mkdir week2tag
+  192  git clone git@github.com:th3livingd3ad/caRepo.git
+  193  git fetch 
+  194  git tag
+  195  git fetch --tags
+  197  git fetch 
+  198  git fetch --tags
+  199  git show
+  200  git show r1
+  201  git switch -c fix-r1 r1
+  202  git branch
+  203  git branch -vv
+  204  git log --oneline r1
+  205  nano greet.sh
+  206  git status
+  207  git init
+  208  git add greet.sh
+  209  git commit "changed r1" 
+  210  git commit -m "changed r1"
+  211  git push origin fix-r1
+  220  git pull 
+  221  git pull
+  222  git switch -c CR201
+  223  nano CR201.sh
+  224  git status
+  225  git add CR201.sh
+  226  git commit -m "added file"
+  227  git push origin CR201
+  228  git switch main
+  229  git switch CR202
+  230  git swtich -c CR202
+  231  git switch -c CR202
+  232  nano CR202.sh
+  233  git status
+  234  git add CR202.sh
+  235  git commit -m "CR202 stuff"
+  236  git push origin CR202
+  237  git switch main
+  238  git switch CR203
+  239  nano CR203.sh
+  240  git commit -m "CR203"
+  241  git add CR203.sh
+  242  git commit CR203.sh
+  243  git commit -m "CR203"
+  244  git push origin CR203
+  245  git branch
+  249  git swtich CR203
+  250  git switch -c CR203
+  251  git branch
+  252  git branch -vv
+  253  nano CR203.sh
+  254  git init 
+  255  git add CR203.sh
+  256  git commit -m "commiting CR203"
+  257  git push origin CR203
+  258  git branch
+  259  git branch main
+  260  git switch main
+  261  git branch -a
+  262  gh pr create --base main head CR201 --title "merging main and CR201" --body ".."
+  263  gh pr create --base main --head CR201 --title "merging main and CR201" --body ".."
+  264  gh pr list
+  265  gh pr merge #1 --rebase
+  266  gh pr merge 
+  267  gh pr list
+  268  git branch
+  269  git pr merge 1 --rebase
+  270  gh pr merge 1 --rebase
+  271  gh pr --delete branch
+  272  gh pr create --base main --head CR202 --title "merging main and CR201" --body ".."
+  273  gh pr list
+  274  gh pr merge 1 --merge --delete-branch
+  275  gh pr merge 2 --merge --delete-branch
+  278  cat >> ~/.ssh/config <<'EOF'
+  280  cat >> ~/.ssh/config <<'EOF'
+  287  chmod 600 ~/.ssh/config
+  292  mkdir njanbolu
+  295  git clone git@github-njanbolu:th3livingd3ad/caRepo.git
+  296  cd git config user.name "njanbolu"
+  297  git config user.name "njanbolu"
+  300  git config user.name "njanbolu"
+  301  gh api users/njanbolu --jq '.id'
+  302  git config user.email "208491147+njanbolu@users.noreply.github.com"
+  303  git branch
+  304  git switch -c CR203
+  305  git switch main
+  306  git switch -c CR204
+  307  nano CR204.sh
+  308  chmod +x CR204.sh
+  310  git init
+  311  git status
+  312  git add CR204.sh
+  313  git commit -m "pushing from njanbolu"
+  314  git push origin CR204
+  315  gh api                 user/repository_invitations --jq '.[].id'
+  316  gh api --method PUT    repos/<you>/<repo>/collaborators/njanbolu -f permission=push
+  317  gh api --method PUT    repos/th3livingd3ad/caRepo/collaborators/njanbolu -f permission=push
+  318  gh api                 user/repository_invitations --jq '.[].id'
+  319  git push origin CR204
+  320  git switch main 
+  321  git pull
+  323  nano greet.sh
+  324  git add greet.sh
+  325  git commit -m "made changes to greet.sh"
+  326  git commit origin main
+  327  git push origin main
+  328  git merge
+  329  git merge 
+  333  mkdir test
+  335  git clone git@github.com:pearse1104/C20390771.git
+  340  nano test.txt
+  341  git status
+  342  git add test.txt
+  349  chmod x+ test.txt
+  350  nano text.txt
+  352  git init 
+  353  git add text.txt
+  354  git commit -m "check"
+  355  git push -u origin main
+  363  git auth
+  364  gh auth
+  365  gh auth login
+  366  git remote -v
+  367  git merge 
+  370  git switch -c jab1
+  372  nano greet.sh
+  373  git status
+  374  git add greet.sh
+  375  git commit -m "new commit"
+  376  git push 
+  377  git push origin jab1
+  378  git switch main
+  379  git merge jab1
+  382  mkdir conflict
+  384  git branch
+  385  nano test.sh
+  386  chmod +x test.sh
+  388  git status
+  389  git add .
+  390  git commit -m "Original menu"
+  391  git switch -c CHEF-A
+  392  nano test.sh
+  393  git add .
+  394  git commit -m "changed to steak"
+  395  git switch main
+  396  git switch -c CHEF-B
+  397  nano test.sh
+  403  git branch
+  404  nano.txt
+  405  nano test.txt
+  406  git switch CHEF-A
+  407  nano.txt
+  408  nano test.txt
+  409  git branch main
+  410  git switch main
+  418  git branch -a
+  419  git switch CHEF-B
+  421  nano tests.sh
+  422  nano test.sh
+  423  git switch main
+  424  git merge CHEF-A
+  425  git switch CHEF-B       
+  426  git commit -am "CHEF-B: curry"
+  427  git switch main
+  428  git merge CHEF-A
+  429  git switch main
+  430  git merge CHEF-A
+  431  git merge CHEF-B
+  439  git remote -v
+  440  gh auth login
+  443  git fetch
+  444  git stats
+  445  git status
+  446  git remote -v
+  448  git clone git@github.com:pearse1104/CA1-SOFTWARE.git
+  456  git init
+  457  git status
+  458  git add user.txt
+  459  git commit -m "pushing files to repo"
+  460  git remote add origin git@github.com:th3livingd3ad/devopsCA1sw.git
+  461  git remote set-url origin git@github.com:th3livingd3ad/devopsCA1sw.git
+  462  git status
+  463  git push origin main
+  464  git clone git@github.com:pearse1104/C20390771.git
+  466  nano user-setup.sh
+  470  nano user-setup.sh
+  471  chmod +x user-setp.sh
+  472  chmod +x user-setup.sh
+  475  git init
+  476  git status
+  477  git add .
+  478  git commit -m "pushing to collab"
+  479  git remote set-url origin git@github.com:pearse1104/C20390771.git
+  480  git push
+  481  git switch myCA1branch
+  482  git switch -c myCA1branch
+  484  git status
+  486  nano user.txt
+  487  git add user.txt
+  488  git commit -m "version2"
+  489  git push origin myCA1branch
+  490  git switch -m
+  491  git switch main
+  492  git merge myCA1branch
+  494  git status
+  495  git add history.txt
+  496  git push origin main
+  497  git status
+  498  git commit -m "history text file added"
+  499  git push origin main
+  500  gh auth login
+  501  gh auth refresh -s workflow,project
+  502  gh auth setup-git
+  503  git config --global user.name "thelivingd3ad"
+  504  git config --global user.email "geon.sk.suresh@gmail.com"
+  505  git config --global init.defaultBranch main
+  508  gh repo create lab9 --public --clone
+  509  cd lab9
+  510  gh repo view --json name,visibility 
+  511  gh label create EPIC --color 8B008B --description "Epic issue"
+  512  gh issue create --title "do lab9" --label EPIC --assignee @me --body "Epic covering all lab9 tasks"
+  513  gh issue create --title "create validate-data script" --label enhancement --assignee @me --body "Part of #1"
+  514  cat > validate-data.sh << 'EOF'
+# Usage: ./validate-data.sh "name" "mobile"
+  515  chmod +x validate-data.sh
+  516  ./validate-data.sh "John" "0871234567"  
+  517  ./validate-data.sh "Alexandra Johnson" "0871234567" 
+  518  ./validate-data.sh "John" "08712345678"    
+  519  gh issue create --title "create yaml test script" --label enhancement --assignee @me --body "Part of #1"
+  520  mkdir -p .github/workflows
+  521  cat > .github/workflows/basictests.yml << 'EOF'
+name: lab9 basic tests
+  lab9-basic-tests:
+        run: bash validate-data.sh "John" "0871234567"
+        run: bash validate-data.sh "Alexandra Johnson" "0871234567"
+        run: bash validate-data.sh "John" "08712345678"
+  522  cat .github/workflows/basictests.yml
+  524  git add .
+  525  git commit -m "Add validate-data script and basictests workflow (#2 #3)"
+  526  git branch -M main
+  527  git push -u origin main
+  528  gh repo view --web
+  529  gh run list 
+  530  gh run view  
+  532  gh issue close 2 --comment "Script created and tested"
+  533  gh issue close 3 --comment "Workflow created and running"
+  534  gh issue list --state all
+  535  gh issue create --title "create lab9 project view" --label enhancement --assignee @me --body "Part of #1"
+  536  gh project create --owner @me --title lab9
+  537  gh project list --owner @me
+  538  gh project link 1 --owner @me --repo lab9
+  539  for i in 1 2 3 4; do   gh project item-add 1 --owner @me --url https://github.com/$(gh api user -q .login)/lab9/issues/$i; done
+  540  gh auth status
+  541  gh project list --owner @me
+  542  cd ~/lab9
+  543  gh project link 7 --owner @me
+  544  gh project link 7 --owner th3livingd3ad --repo lab9
+  545  for i in 1 2 3 4; do   gh project item-add 7 --owner th3livingd3ad --url https://github.com/th3livingd3ad/lab9/issues/$i; done
+  546  gh project item-list 7 --owner th3livingd3ad
+  547  gh issue close 4 --comment "Project view created"
+  549  gh issue create --title "create test branch" --label enhancement --assignee @me --body "Part of #1"
+  550  git checkout -b test
+  551  sed -i 's/MAX_NAME=15/MAX_NAME=20/' validate-data.sh
+  552  grep MAX_NAME validate-data.sh
+  553  git add validate-data.sh
+  554  git commit -m "Increase max name length to 20 (#5)"
+  555  git push -u origin test
+  556  gh run list
+  558  sed -i 's/branches: \[ main \]/branches: [ main, test ]/' .github/workflows/basictests.yml
+  559  grep branches .github/workflows/basictests.yml
+  560  git add .github/workflows/basictests.yml
+  561  git commit -m "Run workflow on main and test branches (#5)"
+  562  git push
+  563  gh run list --branch test
+  564  gh run view --log
+  567  nano history.txt
+  569  nano history.txt
+  572  nano history.txt
+  573  history | grep -E 'gh |git |lab9|validate|basictests|mkdir|chmod|sed|nano|cat >' > history.txt
