@@ -1,0 +1,21 @@
+name: lab9 basic tests
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  lab9-basic-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Test 1 - valid name and mobile
+        run: bash validate-data.sh "John" "0871234567"
+
+      - name: Test 2 - name too long
+        run: bash validate-data.sh "Alexandra Johnson" "0871234567"
+
+      - name: Test 3 - mobile too long
+        run: bash validate-data.sh "John" "08712345678"
